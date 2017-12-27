@@ -15,3 +15,7 @@ export amn_local="/Volumes/data/amn_local"
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export PATH=$sql_home:$PATH
 export PATH=$composer_home:$PATH
+
+alias show_hidden_files='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder'
+
+alias hide_hidden_files='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder'
